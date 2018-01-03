@@ -1,0 +1,41 @@
+body {
+  color: silver;
+  font-family: sans-serif;
+  background-color: #ccebff
+}
+/*---Check video for information: https://www.youtube.com/watch?v=8x1mO1d6-4w reference -->*/
+.navigation_bar h1 {
+  text-align: center;
+}
+.navigation_bar ul {
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+}
+
+.navigation_bar ul li {
+  float:left;
+  width: 375px;
+  height: 40px;
+  background: #33adff;
+  opacity: .8;
+  line-height:40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navigation_bar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+.navigation_bar ul li a:hover {
+  color:orange
+;
+}
+
+.navigation_bar ul li {
+  display:block;
+}
